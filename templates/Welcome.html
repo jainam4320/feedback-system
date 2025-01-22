@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>FeedBack System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
+  <style>
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    .jumbotron {
+      margin-bottom: 0;
+      background-color: #00b7ff;
+    }
+
+    footer {
+      background-color: #00b7ff;
+      padding: 25px;
+    }
+	.container {
+      position: relative;
+      width: 70%;
+    }
+	.middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container:hover .image {
+      opacity: 0.3;
+    }
+
+    .container:hover .middle {
+      opacity: 1;
+    }
+
+    .text {
+      color: white;
+      font-size: 25px;
+      padding: 20px 50px;
+    }
+	.image {
+      opacity: 1;
+      display: block;
+      width: auto;
+      height: auto%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+  </style>
+
+</head>
+
+<body style="background-image: url(../Wallpaper/background.jpg);">
+
+  <div class="jumbotron">
+    <a href="Welcome.html"><img src="../Logo/Logo.png" alt="Logo" style="float:left; padding-left:15%;"></a>
+    <div class="container text-center" style="padding-top: 2%">
+      <h1>Review Before You Buy</h1>
+      <p>Reviews & Ratings</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="Welcome.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="Contact/Contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><input type="text" placeholder="Search..." name="search"></li>
+          <li><a href="search.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+          <li><a href="../Login_Registration/Login.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <table>
+<tr>
+        <td align="center">
+          <div class="container">
+            <img src="mobile.png" alt="Mobiles" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"><a href="../Mobile/Mobile.html" style="color: aliceblue">Mobiles</a></div>
+            </div>
+          </div>
+        </td>
+        <td align="center">
+          <div class="container">
+            <img src="laptop.png" alt="Laptops" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">
+                <a href="../Laptop/Laptop.html" style="color: aliceblue">Laptops</a>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td align="center">
+          <div class="container">
+            <img src="camera.png" alt="Keyboards" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"><a href="../Camera/Camera.html"
+                  style="color: aliceblue">Camera and Lenses</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <br><br>
+        </td>
+      </tr>
+      <tr>
+       <td align="center">
+          <div class="container">
+            <img src="watch1.png" alt="Watches" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"><a href="../Smart_Watch/Smart_Watch.html" style="color: aliceblue">Smart Watches</a></div>
+            </div>
+          </div>
+        </td>
+        <td align="center">
+          <div class="container">
+            <img src="com.hardware.png" alt="Computer Hardware" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">
+                <a href="../Computer_Hardware/Computer_Hardware.html" style="color: aliceblue">Computer Hardware</a>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td align="center">
+          <div class="container">
+            <img src="usb.png" alt="EA" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"><a href="../Electronic_Accessories/Electronic_Accessories.html"
+                  style="color: aliceblue">Electronic Accesories</a></div>
+            </div>
+          </div>
+        </td>
+
+		</tr>
+    </table>
+  
+<br><br>
+  <footer class="container-fluid text-center">
+    <p></p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright Review System </p>
+    <form class="form-inline"> Notification :
+      <input type="email" class="form-control" size="50" placeholder="Email Address">
+      <button type="button" class="btn btn-danger">Notify</button>
+    </form>
+  </footer>
+
+</body>
+
+</html>

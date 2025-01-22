@@ -1,0 +1,13 @@
+#FeedBack System
+Functionalities : 
+	
+Types Of Users:
+  1. End-users
+  2. Admins [ taking care of categories and content ]
+  3. Content managers [ taking care of type and quality of content]
+
+Expected Functionalities:
+
+Impact on users:
+
+Inspirational Resources:
